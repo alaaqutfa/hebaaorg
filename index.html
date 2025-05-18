@@ -102,7 +102,45 @@
                         <div class="blog-content">
                             <div class="post-meta flex-column">
                                 <span class="date">Aug. 1th, 2022</span>
-                                <div class="categories">
+                                <div class="init-swiper categories-slider">
+                                    <script type="application/json" class="swiper-config">
+                                        {
+                                            "slidesPerView": "auto",
+                                            "loop": true,
+                                            "speed": 800,
+                                            "autoplay": {
+                                                "delay": 2000
+                                            },
+                                            "spaceBetween": 10,
+                                            "freeMode": true,
+                                            "breakpoints": {
+                                                "640": {
+                                                "slidesPerView": 2
+                                                },
+                                                "768": {
+                                                "slidesPerView": 3
+                                                },
+                                                "1024": {
+                                                "slidesPerView": 5
+                                                }
+                                            }
+                                        }
+                                    </script>
+
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><a href="#" class="category">Construction</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Financial aid</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Food aid</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Humanitarian relief</a>
+                                        </div>
+                                        <div class="swiper-slide"><a href="#" class="category">Livelihood
+                                                Development</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Medical aid</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Water aid</a></div>
+                                        <div class="swiper-slide"><a href="#" class="category">Workshops</a></div>
+                                    </div>
+                                </div>
+                                <!-- <div class="categories">
                                     <a href="#" class="category">Construction</a>
                                     <a href="#" class="category">Financial aid</a>
                                     <a href="#" class="category">Food aid</a>
@@ -111,7 +149,7 @@
                                     <a href="#" class="category">Medical aid</a>
                                     <a href="#" class="category">Water aid</a>
                                     <a href="#" class="category">Workshops</a>
-                                </div>
+                                </div> -->
                             </div>
                             <h2 class="post-title">
                                 <a href="blog-details.html" title="Hiwar Project">Hiwar Project</a>
@@ -141,7 +179,7 @@
                         <div class="blog-content">
                             <div class="post-meta">
                                 <span class="date">Jul. 16th, 2021</span>
-                                <span class="category">Financial aid</span>
+                                <a href="#" class="category">Financial aid</a>
                             </div>
                             <h3 class="post-title">
                                 <a href="blog-details.html" title="Distribution of salaries for orphans #Iraq #Erbil">
@@ -159,7 +197,8 @@
                                 <a href="#" class="category">Financial aid</a>
                             </div>
                             <h3 class="post-title">
-                                <a href="blog-details.html" title="Shelter project for new #returnees and #IDPs in Salahaddin Governorate">
+                                <a href="blog-details.html"
+                                    title="Shelter project for new #returnees and #IDPs in Salahaddin Governorate">
                                     Shelter project for new #returnees and #IDPs in Salahaddin Governorate
                                 </a>
                             </h3>
@@ -167,7 +206,8 @@
                     </article><!-- End Blog Item -->
 
                     <article class="blog-item" data-aos="fade-up" data-aos-delay="400">
-                        <img src="assets/img/blog/meat-vulnerable-families.jpg" alt="Meat Vulnerable Families" class="img-fluid" />
+                        <img src="assets/img/blog/meat-vulnerable-families.jpg" alt="Meat Vulnerable Families"
+                            class="img-fluid" />
                         <div class="blog-content">
                             <div class="post-meta">
                                 <span class="date">Jul. 12th, 2021</span>
@@ -187,6 +227,147 @@
             </div>
 
         </section><!-- /Blog Hero Section -->
+
+        <!-- Featured Posts Section -->
+        <section id="featured-posts" class="featured-posts section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Featured Posts</h2>
+                <div><span>Check Our</span> <span class="description-title">Featured Posts</span></div>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="blog-posts-slider swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 800,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": 3,
+                            "spaceBetween": 30,
+                            "breakpoints": {
+                                "320": {
+                                "slidesPerView": 1,
+                                "spaceBetween": 20
+                                },
+                                "768": {
+                                "slidesPerView": 2,
+                                "spaceBetween": 20
+                                },
+                                "1200": {
+                                "slidesPerView": 3,
+                                "spaceBetween": 30
+                                }
+                            }
+                        }
+                    </script>
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-post-item">
+                                <img src="assets/img/blog/hiwar.jpg" alt="Hiwar Project" />
+                                <div class="blog-post-content">
+                                    <div class="post-meta">
+                                        <span><i class="bi bi-person"></i> abdulrahman</span>
+                                        <span><i class="bi bi-clock"></i> Aug 1, 2022</span>
+                                        <span><i class="bi bi-chat-dots"></i> 6 Comments</span>
+                                    </div>
+                                    <h2><a href="#">HIWAR Project</a>
+                                    </h2>
+                                    <p>HIWAR Project HEBAA Foundation for Sustainable Development announces the launch…
+                                    </p>
+                                    <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End slide item -->
+
+                        <div class="swiper-slide">
+                            <div class="blog-post-item">
+                                <img src="assets/img/blog/meat-vulnerable-families.jpg"
+                                    alt="Meat Vulnerable Families" />
+                                <div class="blog-post-content">
+                                    <div class="post-meta">
+                                        <span><i class="bi bi-person"></i> abdulrahman</span>
+                                        <span><i class="bi bi-clock"></i> Jul 12, 2021</span>
+                                        <span><i class="bi bi-chat-dots"></i> 6 Comments</span>
+                                    </div>
+                                    <h2>
+                                        <a href="#">
+                                            Distribution of 175 kilos of meat
+                                        </a>
+                                    </h2>
+                                    <p>
+                                        Distribution of 175 kilos of meat to the most vulnerable families in #Erbil
+                                    </p>
+                                    <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End slide item -->
+
+                        <div class="swiper-slide">
+                            <div class="blog-post-item">
+                                <img src="assets/img/blog/salaries-distribution-first.jpg" alt="Blog Image">
+                                <div class="blog-post-content">
+                                    <div class="post-meta">
+                                        <span><i class="bi bi-person"></i> Sarah Johnson</span>
+                                        <span><i class="bi bi-clock"></i> Jan 21, 2025</span>
+                                        <span><i class="bi bi-chat-dots"></i> 15 Comments</span>
+                                    </div>
+                                    <h2><a href="#">At vero eos et accusamus et iusto odio dignissimos ducimus</a></h2>
+                                    <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus
+                                        elementum semper
+                                        nisi.</p>
+                                    <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End slide item -->
+
+                        <div class="swiper-slide">
+                            <div class="blog-post-item">
+                                <img src="assets/img/blog/salaries-distribution-second.jpg" alt="Blog Image">
+                                <div class="blog-post-content">
+                                    <div class="post-meta">
+                                        <span><i class="bi bi-person"></i> David Brown</span>
+                                        <span><i class="bi bi-clock"></i> Jan 24, 2025</span>
+                                        <span><i class="bi bi-chat-dots"></i> 10 Comments</span>
+                                    </div>
+                                    <h2><a href="#">Et harum quidem rerum facilis est et expedita distinctio</a></h2>
+                                    <p>Donec quam felis ultricies nec pellentesque eu pretium quis sem nulla consequat
+                                        massa quis enim.
+                                    </p>
+                                    <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End slide item -->
+
+                        <div class="swiper-slide">
+                            <div class="blog-post-item">
+                                <img src="assets/img/blog/blog-post-portrait-5.webp" alt="Blog Image">
+                                <div class="blog-post-content">
+                                    <div class="post-meta">
+                                        <span><i class="bi bi-person"></i> Emma Davis</span>
+                                        <span><i class="bi bi-clock"></i> Jan 27, 2025</span>
+                                        <span><i class="bi bi-chat-dots"></i> 6 Comments</span>
+                                    </div>
+                                    <h2><a href="#">Nam libero tempore, cum soluta nobis est eligendi optio</a></h2>
+                                    <p>Aenean leo ligula porttitor eu consequat vitae eleifend ac enim aliquam lorem
+                                        ante dapibus in
+                                        viverra.</p>
+                                    <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End slide item -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- /Featured Posts Section -->
 
     </main>
 
